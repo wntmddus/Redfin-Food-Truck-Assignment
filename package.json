@@ -1,0 +1,19 @@
+{
+    "name": "FoodTruckAPI",
+    "version": "1.0.0",
+    "description": "Redfin take home assignment",
+    "main": "src/index.js",
+    "author": "Seung Yeon Joo",
+    "license": "MIT",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.0",
+        "axios-retry": "^3.1.9",
+        "columnify": "^1.5.4",
+        "moment": "^2.29.1",
+        "prompt-sync": "^4.2.0",
+        "prompts": "^2.4.0"
+    }
+}
