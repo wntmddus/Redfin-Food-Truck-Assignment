@@ -8,7 +8,7 @@ axios.defaults.headers.common['X-App-Token'] = 'pOTicTKRtxgamxNZ5InQ7HyiJ';
 /**
  * Used to Fetch list of food trucks 
  * @param {Number} dayorder - calander days in number ex 1(Monday) 5(Friday)
- * @param {page} page - page number
+ * @param {Number} page - page number
  * @param {String} currentTime - Current time in HH:mm format
  * @return {Array} - returns list of food trucks in array
  */
