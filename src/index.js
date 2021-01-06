@@ -82,7 +82,7 @@ const main = async () => {
         }
 
         displayData(modifiedFoodTrucks);
-        promptUser();
+        isContinuing = promptUser();
     } while (isContinuing)
 };
 
